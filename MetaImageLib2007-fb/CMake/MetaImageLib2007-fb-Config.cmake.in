@@ -1,0 +1,16 @@
+#-----------------------------------------------------------------------------
+#
+# MetaImageLib2007-fbConfig.cmake - MetaImageLib2007-fb CMake configuration file for external projects.
+#
+# This file is configured by MetaImageLib2007-fb and used by the UseMetaImageLib2007-fb.cmake module
+# to load MetaImageLib2007-fb's settings for an external project.
+
+# The MetaImageLib2007-fb source tree.
+SET(MetaImageLib2007-fb_INCLUDE_DIR "@MetaImageLib2007-fb_INCLUDE_DIR@")
+
+# The MetaImageLib2007-fb library directory.
+SET(MetaImageLib2007-fb_LIBRARY_DIR "@MetaImageLib2007-fb_LIBRARY_DIR@")
+
+# A list of all libraries for MetaImageLib2007-fb
+SET(MetaImageLib2007-fb_LIBRARIES "@MetaImageLib2007-fb_LIBRARIES@")
+

@@ -1,0 +1,14 @@
+INCLUDE_DIRECTORIES(
+  ${eblib2006-fb_INCLUDE_DIR}
+)
+
+LINK_DIRECTORIES(
+${eblib2006-fb_LIBRARY_DIR}
+)
+
+LINK_LIBRARIES(
+  ${eblib2006-fb_LIBRARIES}
+)
+
+INCLUDE(${MetaImageLib2007-fb_DIR}/MetaImageLib2007-fb-Config.cmake)
+INCLUDE(${MetaImageLib2007-fb_DIR}/UseMetaImageLib2007-fb.cmake)

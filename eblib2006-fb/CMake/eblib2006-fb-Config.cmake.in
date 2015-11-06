@@ -1,0 +1,18 @@
+#-----------------------------------------------------------------------------
+#
+# eblib2006-fbConfig.cmake - eblib2006-fb CMake configuration file for external projects.
+#
+# This file is configured by eblib2006-fb and used by the Useeblib2006-fb.cmake module
+# to load eblib2006-fb's settings for an external project.
+
+# The eblib2006-fb source tree.
+SET(eblib2006-fb_INCLUDE_DIR "@eblib2006-fb_INCLUDE_DIR@")
+
+# The eblib2006-fb library directory.
+SET(eblib2006-fb_LIBRARY_DIR "@eblib2006-fb_LIBRARY_DIR@")
+
+# A list of all libraries for eblib2006-fb
+SET(eblib2006-fb_LIBRARIES "@eblib2006-fb_LIBRARIES@")
+
+#MetaImageLib2007-fb directory
+SET(MetaImageLib2007-fb_DIR "@MetaImageLib2007-fb_DIR@")
